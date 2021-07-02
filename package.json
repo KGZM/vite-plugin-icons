@@ -17,6 +17,10 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
   "homepage": "https://github.com/antfu/vite-plugin-icons",
   "bugs": "https://github.com/antfu/vite-plugin-icons/issues",
   "scripts": {
